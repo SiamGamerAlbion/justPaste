@@ -1,0 +1,39 @@
+error
+[
+  {
+    "download_url": "http://tg-vdo-factory:8000/api/v1/media/storage/video_eaeadd0f-6f5a-491c-b6e5-c64fe3c2165a.mp4",
+    "error": {
+      "message": "Bad request - please check your parameters",
+      "timestamp": 1751162277177,
+      "name": "NodeApiError",
+      "description": "Invalid JSON payload received. Unexpected token.\norld!\",\n    \"tags\": war,Ukraine,Russian \n                    ^",
+      "context": {},
+      "cause": {
+        "message": "400 - \"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 400,\\n    \\\"message\\\": \\\"Invalid JSON payload received. Unexpected token.\\\\norld!\\\\\\\",\\\\n    \\\\\\\"tags\\\\\\\": war,Ukraine,Russian \\\\n                    ^\\\",\\n    \\\"errors\\\": [\\n      {\\n        \\\"message\\\": \\\"Invalid JSON payload received. Unexpected token.\\\\norld!\\\\\\\",\\\\n    \\\\\\\"tags\\\\\\\": war,Ukraine,Russian \\\\n                    ^\\\",\\n        \\\"domain\\\": \\\"global\\\",\\n        \\\"reason\\\": \\\"parseError\\\"\\n      }\\n    ],\\n    \\\"status\\\": \\\"INVALID_ARGUMENT\\\"\\n  }\\n}\\n\"",
+        "name": "AxiosError",
+        "stack": "AxiosError: Request failed with status code 400\n    at settle (/usr/local/lib/node_modules/n8n/node_modules/.pnpm/axios@1.8.3/node_modules/axios/lib/core/settle.js:19:12)\n    at RedirectableRequest.handleResponse (/usr/local/lib/node_modules/n8n/node_modules/.pnpm/axios@1.8.3/node_modules/axios/lib/adapters/http.js:547:9)\n    at RedirectableRequest.emit (node:events:530:35)\n    at RedirectableRequest._processResponse (/usr/local/lib/node_modules/n8n/node_modules/.pnpm/follow-redirects@1.15.9/node_modules/follow-redirects/index.js:409:10)\n    at ClientRequest.RedirectableRequest._onNativeResponse (/usr/local/lib/node_modules/n8n/node_modules/.pnpm/follow-redirects@1.15.9/node_modules/follow-redirects/index.js:102:12)\n    at Object.onceWrapper (node:events:633:26)\n    at ClientRequest.emit (node:events:518:28)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:716:27)\n    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)\n    at TLSSocket.socketOnData (node:_http_client:558:22)\n    at Axios.request (/usr/local/lib/node_modules/n8n/node_modules/.pnpm/axios@1.8.3/node_modules/axios/lib/core/Axios.js:45:41)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at invokeAxios (/usr/local/lib/node_modules/n8n/node_modules/.pnpm/n8n-core@file+packages+core_openai@4.78.1_encoding@0.1.13_zod@3.24.1_/node_modules/n8n-core/src/execution-engine/node-execution-context/utils/request-helper-functions.ts:315:10)\n    at proxyRequestToAxios (/usr/local/lib/node_modules/n8n/node_modules/.pnpm/n8n-core@file+packages+core_openai@4.78.1_encoding@0.1.13_zod@3.24.1_/node_modules/n8n-core/src/execution-engine/node-execution-context/utils/request-helper-functions.ts:707:20)\n    at Object.request (/usr/local/lib/node_modules/n8n/node_modules/.pnpm/n8n-core@file+packages+core_openai@4.78.1_encoding@0.1.13_zod@3.24.1_/node_modules/n8n-core/src/execution-engine/node-execution-context/utils/request-helper-functions.ts:1753:4)\n    at ExecuteContext.requestOAuth2 (/usr/local/lib/node_modules/n8n/node_modules/.pnpm/n8n-core@file+packages+core_openai@4.78.1_encoding@0.1.13_zod@3.24.1_/node_modules/n8n-core/src/execution-engine/node-execution-context/utils/request-helper-functions.ts:1100:9)\n    at ExecuteContext.requestWithAuthentication (/usr/local/lib/node_modules/n8n/node_modules/.pnpm/n8n-core@file+packages+core_openai@4.78.1_encoding@0.1.13_zod@3.24.1_/node_modules/n8n-core/src/execution-engine/node-execution-context/utils/request-helper-functions.ts:1395:11)\n    at ExecuteContext.requestWithAuthentication (/usr/local/lib/node_modules/n8n/node_modules/.pnpm/n8n-core@file+packages+core_openai@4.78.1_encoding@0.1.13_zod@3.24.1_/node_modules/n8n-core/src/execution-engine/node-execution-context/utils/request-helper-functions.ts:1762:11)",
+        "code": "ERR_BAD_REQUEST",
+        "status": 400
+      }
+    }
+  }
+]
+
+input
+{
+  "snippet": {
+    "title": "Russian Guided Bomb Reaches Dnepropetrovsk for First Time",
+    "description": "For the first time, a Russian guided aerial bomb has hit Dnepropetrovsk, about 100 km from the front line. Ukrainian air defense tried to intercept it, and experts believe it could be a Grom-1 munition. Stay tuned for more updates—subscribe to Wars Around World!",
+    "tags": war,Ukraine,Russian bomb,Dnepropetrovsk,air defense,Grom-1,conflict,military,news,
+    "categoryId": "24",
+    "defaultLanguage": "en",
+    "defaultAudioLanguage": "en"
+  },
+  "status": {
+    "privacyStatus": "unlisted",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false
+  }
+}
